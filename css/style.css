@@ -1,0 +1,194 @@
+body{font-family: Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Whole body set up*/
+/*container{
+width: 80%;
+margin: auto;
+overflow: hidden;}*/
+
+header{
+  background-color:#1D365E;
+  background-repeat: no-repeat;
+  background-position: right;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+nav{background-color:#1C1B1B;
+  padding-top:10px;
+  height:auto;
+  min-height:50px;
+  border-bottom:#e8491d 3px solid;
+/*Drop down menu formating*/
+  position: relative;}
+/* remove the bullets in the list and change the fonts to upper case and 10px size and white color*/
+  nav a {
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:12px;}
+
+  /*convert the vertical to horizontal & set the padding around the box*/
+  nav li{
+  /*float to right */
+  float:left;
+  display:inline;
+  /*left and right 20px width*/
+  padding: 0 20px 0 20px;}
+
+  nav a:hover{
+    color:#e8491d;
+    font-weight:bold;
+    }
+
+  /* Dropdown Button */
+
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 8px 2px;
+    text-decoration: none;
+    display: block;
+    font-size: 10px;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #fff; color:#000;}
+#sitemap .family{background-image:url(../image/Family_pic.jpg); 
+                background-size:cover;}
+#sitemap .family figcaption {text-align: center; }
+
+  #sitemap .container {
+     background-color:#ccc;
+    color:#000;}
+     
+ main{
+    background-image: linear-gradient(#f0f2f5, #a3a5a8);
+    padding: 5px 20px 5px 30px;
+       
+    }
+
+main a{ 
+    color:#000;
+    text-decoration:none;}
+
+main a:hover 
+{
+color:#e8491d;
+font-weight:bold;
+}
+
+/*Showcase*/
+#showcase{
+    background:url('../image/AIStudentResearch.jpg') no-repeat 0 ;
+  height:250px;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
+#aboutme .container
+{
+height:100%;
+background-size: contain;
+background-color:#C4D7F1  ;
+font-size: 12px;
+}
+#aboutme .container img
+{float:left;
+  width: 300px;
+  height: 450px;
+  margin-right: 20px;
+
+}
+footer{
+border-top:#e8491d 3px solid;
+border-bottom:#e8491d 3px solid;
+text-align: center;
+background:#35424a;
+color:#fff;
+padding-top: 6px;
+font-size: 10px;
+height:30px;}
+
+.row #sitemap {background-color:  #b3e0ff}
+
+#sitemap .container{
+		   height: 100%;
+		   
+       background-color:#E9EBED  ;
+       color:#000;
+       font-size: 12px;
+     }
+ #powerpoints {   display: grid; 
+             grid-template-columns: repeat(auto-fill, 500px);
+             grid-template-rows: auto;
+             grid-gap: 2em;	
+            space-evenly: 2em;
+            
+}
+/*#5C759D*/
+#recentnews {overflow:scroll; height: 600px; width:220px;}
+#recentnews .container{
+      height: 100%;
+   		background-size: cover;
+      background-color:#D5DCE7;
+      color:#000;
+      font-size: 11px;
+}
+
+.container1 { float: right;
+margin-left:10px;
+border: 3px ridge #033;}
+
+ .container1{
+      overflow:scroll; 
+      height: 500px; width:310px;
+      background-size: cover;
+      background-color:#D5DCE7;
+      color:#000;
+      font-size: 11px;
+}
+.container2 { float: right;
+margin-left:10px;
+border: 3px ridge #033;}
+.container2{
+      overflow:scroll; 
+      height: 500px; width:310px;
+      background-size: cover;
+      background-color:#D5DCE7;
+      color:#000;
+      font-size: 11px;
+}
+
